@@ -27,3 +27,4 @@ Vagrant.configure("2") do |config|
 	# запускаем скрипт установки и настройки необходимых пакетов 
 	config.vm.provision :shell, path: "essentials.sh"
 end
+
