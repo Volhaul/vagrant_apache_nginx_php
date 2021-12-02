@@ -6,7 +6,7 @@ Vagrant + VirtualBox sample deployment contains Debian 9, Nginx, Apache, PHP 5.6
 ### 1. Устанавливаем актуальную версию Vagrant и VirtualBox
 
 
-### 2. Скачиваем репозитарий с примером:
+### 2. Скачиваем репозиторий с примером:
 
 Запускаем PowerShell или cmd с правами администратора и выполняем команды:
    
