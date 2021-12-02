@@ -24,6 +24,6 @@ Vagrant.configure("2") do |config|
 	# Домашний каталог проекта и так монтируется по умолчанию в /vagrant, но хуже не будет
 	config.vm.synced_folder ".", "/vagrant"
 
-	# запускаем скрипт установки и настройки необходимых пакетов  (перезапуск делаем так: vagrant reload --provision)
-	config.vm.provision :shell, path: "essentials.sh", run: "always"
+	# запускаем скрипт установки и настройки необходимых пакетов 
+	config.vm.provision :shell, path: "essentials.sh"
 end
